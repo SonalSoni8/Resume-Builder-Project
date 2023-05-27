@@ -18,7 +18,7 @@ const Template4 = () => {
     }, [personalInfo, keySkills, workExperience, educationInfo]);
 
     return (
-        <div className='w-full lg:max-w-sm rounded-xl' >
+        <div className='lg:w-full lg:max-w-sm rounded-xl' >
 
             <div className='flex bg-white shadow rounded-xl h-auto '>
                 <div className='flex'>

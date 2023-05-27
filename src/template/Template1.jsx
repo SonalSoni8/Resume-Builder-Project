@@ -43,7 +43,7 @@ const Template1 = () => {
 
 
   return (
-    <div className=' w-full lg:max-w-sm'>
+    <div className=' lg:w-full lg:max-w-sm'>
       <div className='flex bg-gray-50 shadow rounded-lg h-auto flex-row'>
         <div className=' flex flex-col gap-2 w-30'>
           <div className=' h-auto p-2 overflow-hidden'>

@@ -116,7 +116,7 @@ const Preview = ({
   };
 
   return (
-    <div className='bg-white m-6 rounded-2xl shadow p-2 relative'>
+    <div className='bg-white m-6 rounded-2xl shadow p-2 relative '>
       <div className='m-6 mt-0'>
         <h1 className='mb-2 text-2xl font-semibold pt-4'>Resume Preview</h1>
         <hr />
@@ -125,7 +125,7 @@ const Preview = ({
       {/* template selected */}
       <div className='lg:grid lg:grid-cols-2 pb-4 '>
         <div className=' lg:mx-40'>
-          <div className='w-full rounded-xl bg-white shadow-lg lg:max-w-sm items-center flex justify-center ' ref={captureRef}>
+          <div className='rounded-xl bg-white shadow-lg items-center flex justify-center ' ref={captureRef}>
             {templateComponent}
           </div>
         </div>

@@ -17,7 +17,7 @@ const Template3 = () => {
   }, [personalInfo, keySkills, workExperience, educationInfo]);
 
   return (
-    <div className='w-full lg:max-w-sm rounded-xl'>
+    <div className='lg:w-full lg:max-w-sm rounded-xl'>
       <div className='flex flex-col bg-white shadow rounded-lg h-auto'>
         <div className='bg-rose-950 h-auto w-full p-2 rounded-t-xl'>
           <div className="flex flex-col px-4 items-center justify-center bg-grey-lighter divide-y-4 divide divide-white gap-4 ">
