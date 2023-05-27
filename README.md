@@ -25,12 +25,12 @@ Main chanllenge was to save/store the template and data in templates even after 
 
 For live demo
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
-Visit 'resume-builder-project-sonalsoni.vercel.app' this site for live demo of this project
+Visit 'https://resume-builder-project-sonalsoni.vercel.app/' this site for live demo of this project
 
 For Installation:
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 Follow these instructions to install and run this application on your computer:
-1. Use git clone to copy this repository: https://github.com/dimensionalss/resume-builder
+1. Use git clone to copy this repository: https://github.com/dimensionalss/Resume-Builder-Project
 2. Apply the command 'cd resume-builder' to access the project directory.
 3. Install dependencies via npm install.
 4. Using npm run dev, start the development server.
