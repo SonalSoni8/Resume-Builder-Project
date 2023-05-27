@@ -78,13 +78,13 @@ const Temp = ({ selectedTemplate, setSelectTemplate, setPersonalInfo, addWorkExp
       <div className="grid gap-4 lg:grid-cols-2 md:grid-cols-2 xl:grid-cols-4">
         {resume.map((template) => (
           <div
-            className={`relative group max-[320px]:scale-x-[85%] max-[320px]:w-12 max-[320px]:mx-[113px] max-[393px]:scale-x-[85%] max-[393px]:w-12 max-[393px]:mx-[113px] lg:w-full rounded-xl bg-white shadow-lg lg:max-w-sm ${
+            className={`relative group max-[320px]:scale-x-[85%] max-[320px]:w-12 max-[320px]:mx-[113px] lg:w-full rounded-xl bg-white shadow-lg lg:max-w-sm ${
               template.id === selectedTemplate ? 'border-2 border-blue-500' : ''
             }`}
             key={template.id}
             onClick={() => handleTemplateClick(template.id)}
           >
-            <div className="rounded-xl bg-white shadow-lg items-center flex justify-center max-[320px]:scale-x-[85%] max-[320px]:w-full max-[393px]:scale-x-[85%] max-[393px]:w-full">
+            <div className="rounded-xl bg-white shadow-lg items-center flex justify-center max-[320px]:scale-x-[85%] max-[320px]:w-full ">
               <div className=''>{template.template}</div>
             </div>
 
