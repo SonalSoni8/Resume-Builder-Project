@@ -72,7 +72,7 @@ const Template4 = () => {
                         </div>
   {/* skills */}
                         {keySkills.length > 0 && (
-                            <div className='text-white text-sm p-4 flex flex-col gap-2 mb-4'>
+                            <div className='text-white text-sm p-2 flex flex-col gap-2 mb-4'>
                                 <h1 className='font-bold text-white uppercase text-base'>Key Skills ---</h1>
                                 <div>
                                     <ul className='flex flex-col '>
@@ -92,7 +92,7 @@ const Template4 = () => {
 
                         <div className='text-white uppercase'>
                             {/* name */}
-                            <h1 className='font-bold text-3xl 
+                            <h1 className='font-bold text-2xl 
                              pb-4'>{fname} {lname}</h1>
                         </div>
 
