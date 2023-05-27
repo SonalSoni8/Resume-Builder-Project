@@ -44,7 +44,7 @@ const Template1 = () => {
 
   return (
     <div className=' w-full lg:max-w-sm'>
-      <div className='flex bg-white shadow rounded-lg h-auto flex-row'>
+      <div className='flex bg-gray-50 shadow rounded-lg h-auto flex-row'>
         <div className=' flex flex-col gap-2 w-30'>
           <div className=' h-auto p-2 overflow-hidden'>
             <div className='flex flex-col items-center justify-center bg-grey-lighter'>
@@ -56,13 +56,13 @@ const Template1 = () => {
 
               {/* contact */}
               <div className='text-black pt-4 text-sm w-full'>
-                <h1 className='font-bold  text-zinc-800 text-center'>Contact Me</h1>
-                <hr className='border border-zinc-800 m-2' />
+                <h1 className='font-bold  text-orange-400 text-center'>Contact Me</h1>
+                <hr className='border border-orange-400 m-2' />
                 <div className='px-2 text-start flex flex-col gap-2'>
                   {/* phn */}
                   <div className='flex gap-2 items-center'>
                     <div>
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-phone" viewBox="0 0 16 16"> <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z" /> <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" /> </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-phone text-orange-400" viewBox="0 0 16 16"> <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z" /> <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" /> </svg>
                     </div>
                     <div>
                       {phn}
@@ -72,7 +72,7 @@ const Template1 = () => {
                   {/* email */}
                   <div className='flex gap-2 items-center'>
                     <div>
-                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strockewidth="1.5" stroke="currentColor" width="16" height="16">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strockewidth="1.5" stroke="currentColor" width="16" height="16" className='text-orange-400'>
                         <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
                       </svg>
                     </div>
@@ -84,7 +84,7 @@ const Template1 = () => {
                   {/* address */}
                   <div className='flex gap-2 '>
                     <div className=''>
-                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strockewidth="1.5" stroke="currentColor" className="w-5 h-5">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strockewidth="1.5" stroke="currentColor" className="w-5 h-5 text-orange-400">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
                         <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
                       </svg>
@@ -99,12 +99,10 @@ const Template1 = () => {
                 </div>
               </div>
 
-
-              {/* education */}
               {/* education */}
               {Array.isArray(educationInfo) && educationInfo.length > 0 ? (
                 <div className='text-black pb-4 text-sm mt-4 flex flex-col gap-2 w-full'>
-                  <h1 className='font-bold bg-zinc-800 text-white text-center p-2'>Education:</h1>
+                  <h1 className='font-bold bg-orange-400 text-white text-center p-2'>Education:</h1>
                   {educationInfo.map((education, index) => (
                     <div key={index} className='text- px-4'>
                       <h2 className='font-semibold'>
@@ -123,7 +121,7 @@ const Template1 = () => {
               {/* skill */}
               {keySkills.length > 0 && (
                 <div className='text-black text-sm mt-4 flex flex-col gap-2 w-full mb-4'>
-                  <h1 className='font-bold bg-zinc-800 text-white text-center p-2'>Key Skills:</h1>
+                  <h1 className='font-bold bg-orange-400 text-white text-center p-2'>Key Skills:</h1>
                   <div className='px-4 text-start'>
                     <ul className='flex flex-col capitalize'>
                       {keySkills.map((skill, index) => (
@@ -139,10 +137,10 @@ const Template1 = () => {
           </div>
         </div>
 
-        <div className='flex flex-col gap-4 w-70 bg-zinc-300'>
+        <div className='flex flex-col gap-4 w-70 bg-gray-900'>
           {/* name */}
 
-          <div className='text-black text-center mt-8 justify-center px-4 flex flex-col pb-4'>
+          <div className='text-orange-400 text-center mt-8 justify-center px-4 flex flex-col pb-4'>
             <h1 className='font-bold text-3xl uppercase'>
               {fname} {lname}
             </h1>
@@ -150,8 +148,8 @@ const Template1 = () => {
 
 
           {/* about me */}
-          <div className='text-black text-sm justify-evenly flex flex-col gap-2'>
-            <h1 className='font-bold bg-zinc-800 text-white text-center w-full p-2'>About Me</h1>
+          <div className='text-white text-sm justify-evenly flex flex-col gap-2'>
+            <h1 className='font-bold bg-orange-400 text-white text-center w-full p-2'>About Me</h1>
             <div className='px-4 '>
               <div>{obje}</div>
             </div>
@@ -160,8 +158,8 @@ const Template1 = () => {
           <div className=' flex flex-col items-start justify-between gap-4'>
             {/* work */}
             {workExperience && workExperience.length > 0 ? (
-              <div className='text-black text-sm mt-4 flex flex-col gap-2 w-full pb-6'>
-                <h1 className='font-bold bg-zinc-800 text-white text-center p-2'>Work Experience:</h1>
+              <div className='text-white text-sm mt-4 flex flex-col gap-2 w-full pb-6'>
+                <h1 className='font-bold bg-orange-400 text-white text-center p-2'>Work Experience:</h1>
                 {workExperience.map((exp, index) => (
                   <div key={index} className='text- px-4'>
                     <h2 className='font-semibold'>

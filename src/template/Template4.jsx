@@ -70,6 +70,20 @@ const Template4 = () => {
                                 </div>
                             </div>
                         </div>
+  {/* skills */}
+                        {keySkills.length > 0 && (
+                            <div className='text-white text-sm p-4 flex flex-col gap-2 mb-4'>
+                                <h1 className='font-bold text-white uppercase text-base'>Key Skills ---</h1>
+                                <div>
+                                    <ul className='flex flex-col '>
+                                        {keySkills.map((skill, index) => (
+                                            <li key={index} className='capitalize'>{'>'} {skill.skill}</li>
+                                        ))}
+                                    </ul>
+                                </div>
+                            </div>
+                        )}
+
                     </div>
                 </div>
 
@@ -119,19 +133,7 @@ const Template4 = () => {
             <div></div>
           )}
 
-                        {/* skills */}
-                        {keySkills.length > 0 && (
-                            <div className='text-black text-sm p-4 flex flex-col gap-2 mb-4'>
-                                <h1 className='font-bold text-cyan-950 uppercase text-base'>Key Skills ---</h1>
-                                <div>
-                                    <ul className='flex flex-col '>
-                                        {keySkills.map((skill, index) => (
-                                            <li key={index} className='text-black capitalize'>{'>'} {skill.skill}</li>
-                                        ))}
-                                    </ul>
-                                </div>
-                            </div>
-                        )}
+                      
                     </div>
                 </div>
             </div>

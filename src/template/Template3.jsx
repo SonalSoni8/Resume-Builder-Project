@@ -19,8 +19,8 @@ const Template3 = () => {
   return (
     <div className='w-full lg:max-w-sm'>
       <div className='flex flex-col bg-white shadow rounded-lg h-auto'>
-        <div className='bg-stone-300 h-auto w-full p-2'>
-          <div className="flex flex-col px-4 items-center justify-center bg-grey-lighter divide-y-4 divide divide-yellow-950 gap-4">
+        <div className='bg-rose-950 h-auto w-full p-2'>
+          <div className="flex flex-col px-4 items-center justify-center bg-grey-lighter divide-y-4 divide divide-white gap-4">
             {/* <div className="h-40 w-40 mt-4 flex justify-center items-center  bg-white text-blue shadow-lg uppercase border border-blue cursor-pointer">
               img
               <img
@@ -29,15 +29,16 @@ const Template3 = () => {
               />
             </div> */}
 
-            <div className='text-yellow-950 justify-between px-2 tracking-widest uppercase text-center mt-4'>
+            <div className='text-white justify-between px-2 tracking-widest uppercase text-center mt-4'>
               {/* name */}
+              
               <h1 className='font-bold text-3xl '>
                 {fname} {lname}
               </h1>
             </div>
 
             {/* contact */}
-            <div className='text-black text-sm flex flex-row gap-2 items-center text-center pt-4'>
+            <div className='text-white text-sm flex flex-row gap-2 items-center text-center pt-4'>
               {/* <h1 className='font-bold'>Contact Me</h1> */}
               <div className='flex flex-col gap-2 text-xs justify-center items-center text-center pb-4'>
                 <div className='flex flex-row items-center text-center gap-2'>
@@ -74,21 +75,23 @@ const Template3 = () => {
           </div>
         </div>
 
-        <div className='flex gap-2 w-full p-4 divide-x-2 divide-yellow-950'>
+        <div className='flex gap-2 w-full p-4 divide-x-2 divide-rose-950'>
           <div className='w-1/2 text-left'>
             {/* personal info */}
             <div className='text-black text-sm p-2 justify-evenly flex flex-col gap-2'>
-              <h1 className='font-bold uppercase tracking-widest text-yellow-950 '>About Me</h1>
+              <h1 className='font-bold uppercase tracking-widest text-rose-950 '>About Me</h1>
+              <hr className='border-2 border-rose-950'/>
               <div className=''>{obje}</div>
             </div>
             {/* skills */}
             {keySkills.length > 0 && (
               <div className='text-black text-sm flex flex-col gap-2 p-2'>
-                <h1 className='font-bold uppercase tracking-widest text-yellow-950 '>Key Skills</h1>
+                <h1 className='font-bold uppercase tracking-widest text-rose-950 '>Key Skills</h1>
+                <hr className='border-2 border-rose-950'/>
                 <div>
                   <ul className='flex flex-col capitalize'>
                     {keySkills.map((skill, index) => (
-                      <li key={index} className='text-slate-600'>
+                      <li key={index} className=''>
                         {skill.skill}
                       </li>
                     ))}
@@ -104,7 +107,8 @@ const Template3 = () => {
                 {workExperience.length > 0 ? (
                   <div className='text-black text-sm justify-between flex flex-col gap-2'>
                     <div className=''>
-                      <h1 className='font-bold uppercase tracking-widest text-yellow-950 '>Work Experience</h1>
+                      <h1 className='font-bold uppercase tracking-widest text-rose-950 '>Work Experience</h1>
+                      <hr className='border-2 border-rose-950'/>
                     </div>
                     {workExperience.map((exp, index) => (
                       <div key={index}>
@@ -125,7 +129,8 @@ const Template3 = () => {
                 {/* education */}
                 {educationInfo.length > 0 ? (
                   <div className='text-black text-sm justify-between flex flex-col gap-2'>
-                    <h1 className='font-bold uppercase tracking-widest text-yellow-950 '>Education</h1>
+                    <h1 className='font-bold uppercase tracking-widest text-rose-950 '>Education</h1>
+                    <hr className='border-2 border-rose-950'/>
                     {educationInfo.map((education, index) => (
                       <div key={index}>
                         <h2 className='font-semibold'>
