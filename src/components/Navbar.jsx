@@ -42,7 +42,7 @@ export default function NavBar(props) {
                 </div>
 
                 <div
-                    className={`flex mx-44 justify-self-center mt-2 md:mx-[550px] rounded-xl p-2 bg-white shadow-lg lg:shadow-none w-44 lg:w-full lg:bg-slate-100 ${navbar ? "block" : "hidden"
+                    className={`flex mx-44 justify-self-center mt-2 md:mx-[550px] md:block rounded-xl p-2 bg-white shadow-lg lg:shadow-none w-44 lg:w-full lg:bg-slate-100 ${navbar ? "block" : "hidden"
                         }`}
                 >
                     <div className='flex-1 justify-self-center pb-3 mt-8 lg:block lg:pb-0 lg:mt-0 '
