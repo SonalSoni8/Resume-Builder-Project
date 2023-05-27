@@ -74,7 +74,7 @@ function App() {
 
   return (
     <div className="bg-slate-100 h-full ">
-      <div>
+      <div className="sticky z-50 top-0">
         <Navbar />
       </div>
 

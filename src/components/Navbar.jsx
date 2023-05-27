@@ -7,7 +7,7 @@ export default function NavBar(props) {
     const [navbar, setNavbar] = useState(false);
 
     return (
-        <nav className="h-[60px] bg-slate-100 shadow">
+        <nav className="h-[60px] bg-slate-100 shadow ">
             <div className="justify-between px-4 mx-auto lg:max-w-7xl lg:items-center lg:grid lg:grid-cols-2 lg:px-6">
                 <div>
                     <div className="flex items-center justify-between ">
