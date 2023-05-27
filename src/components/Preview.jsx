@@ -223,7 +223,7 @@ const Preview = ({
                 </svg>
               </div>
               <div className='text-center'>
-                <p className='text-sm'>Resume downloaded successfully!</p>
+                <p className='text-base font-bold '>Resume downloaded successfully!</p>
               </div>
             </div>
           </div>
