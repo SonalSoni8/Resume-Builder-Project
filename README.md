@@ -44,4 +44,4 @@ Contributors:
 As a part of AlmaBetter Full Stack Web Development, Sonal Soni worked alone to construct this project. 
 Contributions are always appreciated! If you want to contribute, please stick to the Github standard workflow.
 
->>>>>>> 5a9b250acdb927deb1ebbfd76ea9f421c21a43e6
+
