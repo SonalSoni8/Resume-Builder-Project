@@ -137,7 +137,7 @@ const Template1 = () => {
           </div>
         </div>
 
-        <div className='flex flex-col gap-4 w-70 bg-gray-900 rounded-r-xl'>
+        <div className='flex flex-col gap-4  bg-gray-900 rounded-r-xl'>
           {/* name */}
 
           <div className='text-orange-400 text-center mt-8 justify-center px-4 flex flex-col pb-4'>
