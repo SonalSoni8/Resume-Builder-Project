@@ -78,7 +78,7 @@ const Temp = ({ selectedTemplate, setSelectTemplate, setPersonalInfo, addWorkExp
       <div className="grid gap-4 lg:grid-cols-2 md:grid-cols-2 xl:grid-cols-4">
         {resume.map((template) => (
           <div
-            className={`relative group max-[320px]:scale-x-[85%] max-[320px]:w-[75%] lg:w-full rounded-xl bg-white shadow-lg lg:max-w-sm ${
+            className={`relative group max-[320px]:w-12 max-[320px]:scale-90 max-[320px]:mx-[113px] lg:w-full rounded-xl bg-white shadow-lg lg:max-w-sm ${
               template.id === selectedTemplate ? 'border-2 border-blue-500' : ''
             }`}
             key={template.id}
@@ -89,11 +89,11 @@ const Temp = ({ selectedTemplate, setSelectTemplate, setPersonalInfo, addWorkExp
             </div>
 
             {/* use template btn */}
-            <div className="absolute bg-gray-700 w-full h-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-opacity-20 shadow invisible group-hover:visible rounded-xl">
+            <div className="absolute bg-gray-700  max-[320px]:w-80 w-full h-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-opacity-20 shadow invisible group-hover:visible rounded-xl">
               <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
                 <Link
                   to="/perinfo"
-                  className="px-4 py-4 text-lg text-blue-100 bg-blue-700 rounded-xl shadow-lg font-bold"
+                  className="px-4  py-4 text-lg text-blue-100 bg-blue-700 rounded-xl shadow-lg font-bold"
                   onClick={() => handleTemplateClick(template.id)}
                 >
                   Use Template
