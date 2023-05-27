@@ -4,14 +4,24 @@ almabetter capstone project
 Resume Builder
 -----------------------------
 This website application aids job seekers in producing polished resumes that catch the attention of hiring managers. 
-React JS, Redux for state management, and Tailwind CSS are all used in the development of the application.
+React JS, Redux for state management, and Tailwind CSS for designing, all of these are used in the development of the application.
 
 Features: 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 1. An easy-to-use form for entering information about yourself, work history, education, and skills.
-2. A preview page also provides the option to switch between template designs.
-3. Tailwind CSS design for an innovative and unified appearance on all platforms.
-4. View finalised resumes in PDF format and download them.
+2. On preview page options are provided to switch between template designs.
+3. Tailwind CSS design for an innovative and unified appearance of templates.
+4. View finalised resumes in PDF format and download them according to your choosen file name.
+
+
+Summary
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+Choose your favourite template design then enter your personal details, then work experience if any, then education details at last enter your key skills. All the data's are saved automatically as you press next button also on reload data are saved. Then on preview page you will see your selected template, if you like you can change your tempate design from their itself.
+Atlast enter file name from which you like to download the pdf file.
+
+Challenges Faced
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+Main chanllenge was to save the template and data in templates even after pagereload.
 
 For live demo
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
