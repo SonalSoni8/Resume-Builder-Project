@@ -78,7 +78,7 @@ const Temp = ({ selectedTemplate, setSelectTemplate, setPersonalInfo, addWorkExp
       <div className="grid gap-4 lg:grid-cols-2 md:grid-cols-2 xl:grid-cols-4">
         {resume.map((template) => (
           <div
-            className={`relative group max-[320px]:scale-90 max-[320px]:w-[75%] lg:w-full rounded-xl bg-white shadow-lg lg:max-w-sm ${
+            className={`relative group max-[320px]:scale-x-[85%] max-[320px]:w-[75%] lg:w-full rounded-xl bg-white shadow-lg lg:max-w-sm ${
               template.id === selectedTemplate ? 'border-2 border-blue-500' : ''
             }`}
             key={template.id}

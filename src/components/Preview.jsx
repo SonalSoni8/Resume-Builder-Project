@@ -125,7 +125,7 @@ const Preview = ({
       {/* template selected */}
       <div className='lg:grid lg:grid-cols-2 pb-4 '>
         <div className=' lg:mx-40'>
-          <div className='rounded-xl bg-white shadow-lg items-center flex justify-center ' ref={captureRef}>
+          <div className='rounded-xl bg-white shadow-lg items-center flex justify-center max-[320px]:scale-x-[85%] max-[320px]:w-full' ref={captureRef}>
             {templateComponent}
           </div>
         </div>
