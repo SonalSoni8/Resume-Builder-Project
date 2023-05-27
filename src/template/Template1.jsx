@@ -43,7 +43,7 @@ const Template1 = () => {
 
 
   return (
-    <div className='lg:w-full lg:max-w-sm rounded-xl ' >
+    <div className='lg:w-full lg:max-w-sm rounded-xl break-words' >
 
       <div className='flex bg-white shadow rounded-xl h-auto '>
         <div className='flex'>

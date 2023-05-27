@@ -19,7 +19,7 @@ const Template2 = () => {
 
 
   return (
-    <div className='lg:w-full lg:max-w-sm p-2'>
+    <div className='lg:w-full lg:max-w-sm p-2  break-words'>
 
       <div className='flex flex-col bg-white shadow rounded-lg h-auto border border-cyan-900' >
         <div className='  h-auto w-full p-2 items-center px-8'>
