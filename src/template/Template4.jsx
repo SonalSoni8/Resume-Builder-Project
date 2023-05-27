@@ -18,12 +18,12 @@ const Template4 = () => {
     }, [personalInfo, keySkills, workExperience, educationInfo]);
 
     return (
-        <div className='w-full lg:max-w-sm' >
+        <div className='w-full lg:max-w-sm rounded-xl' >
 
-            <div className='flex bg-white shadow rounded-lg h-auto '>
+            <div className='flex bg-white shadow rounded-xl h-auto '>
                 <div className='flex'>
 
-                    <div className=' bg-cyan-950 h-auto w-44 p-2 flex flex-col '>
+                    <div className='rounded-xl bg-cyan-950 h-auto w-44 p-2 flex flex-col '>
                         {/* <div className="flex items-center justify-center bg-grey-lighter lg:col-start-1">
                             <div className="h-28 w-28 mt-4 flex justify-center items-center  bg-white text-blue rounded-full shadow-lg uppercase border border-blue cursor-pointer">img
                                 <img
@@ -87,7 +87,7 @@ const Template4 = () => {
                     </div>
                 </div>
 
-                <div className='flex flex-col gap-2 w-full'>
+                <div className='flex flex-col gap-2 w-full rounded-xl'>
                     <div className='mt-8 bg-cyan-600 h-auto p-4 w-full'>
 
                         <div className='text-white uppercase'>

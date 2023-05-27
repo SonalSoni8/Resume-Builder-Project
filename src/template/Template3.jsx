@@ -17,10 +17,10 @@ const Template3 = () => {
   }, [personalInfo, keySkills, workExperience, educationInfo]);
 
   return (
-    <div className='w-full lg:max-w-sm'>
+    <div className='w-full lg:max-w-sm rounded-xl'>
       <div className='flex flex-col bg-white shadow rounded-lg h-auto'>
-        <div className='bg-rose-950 h-auto w-full p-2'>
-          <div className="flex flex-col px-4 items-center justify-center bg-grey-lighter divide-y-4 divide divide-white gap-4">
+        <div className='bg-rose-950 h-auto w-full p-2 rounded-t-xl'>
+          <div className="flex flex-col px-4 items-center justify-center bg-grey-lighter divide-y-4 divide divide-white gap-4 ">
             {/* <div className="h-40 w-40 mt-4 flex justify-center items-center  bg-white text-blue shadow-lg uppercase border border-blue cursor-pointer">
               img
               <img
@@ -29,7 +29,7 @@ const Template3 = () => {
               />
             </div> */}
 
-            <div className='text-white justify-between px-2 tracking-widest uppercase text-center mt-4'>
+            <div className='text-white justify-between px-2 tracking-widest uppercase text-center mt-4 '>
               {/* name */}
               
               <h1 className='font-bold text-3xl '>
@@ -75,8 +75,8 @@ const Template3 = () => {
           </div>
         </div>
 
-        <div className='flex gap-2 w-full p-4 divide-x-2 divide-rose-950'>
-          <div className='w-1/2 text-left'>
+        <div className='flex gap-2 w-full p-4 divide-x-2 rounded-xl divide-rose-950'>
+          <div className='w-1/2 text-left '>
             {/* personal info */}
             <div className='text-black text-sm p-2 justify-evenly flex flex-col gap-2'>
               <h1 className='font-bold uppercase tracking-widest text-rose-950 '>About Me</h1>
@@ -87,7 +87,7 @@ const Template3 = () => {
             {keySkills.length > 0 && (
               <div className='text-black text-sm flex flex-col gap-2 p-2'>
                 <h1 className='font-bold uppercase tracking-widest text-rose-950 '>Key Skills</h1>
-                <hr className='border-2 border-rose-950'/>
+                <hr className='border-2 border-rose-950' />
                 <div>
                   <ul className='flex flex-col capitalize'>
                     {keySkills.map((skill, index) => (
@@ -100,7 +100,7 @@ const Template3 = () => {
               </div>
             )}
           </div>
-          <div className='bg-white flex flex-col items-start justify-between w-1/2 mt-2 text-right gap-4 '>
+          <div className='bg-white flex flex-col items-start justify-between w-1/2 mt-2 text-right gap-4 rounded-xl'>
             <div className='flex flex-col gap-6 p-2'>
               <div>
                 {/* Experience */}
