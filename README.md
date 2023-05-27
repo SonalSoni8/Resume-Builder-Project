@@ -21,7 +21,7 @@ Atlast enter file name from which you like to download the pdf file.
 
 Challenges Faced
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
-Main chanllenge was to save the template and data in templates even after pagereload.
+Main chanllenge was to save/store the template and data in templates even after page reload.
 
 For live demo
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
