@@ -45,7 +45,7 @@ const Template1 = () => {
   return (
     <div className=' lg:w-full lg:max-w-sm'>
       <div className='flex bg-gray-50 shadow rounded-lg h-auto flex-row'>
-        <div className=' flex flex-col gap-2 w-30'>
+        <div className=' flex flex-col gap-2 '>
           <div className=' h-auto p-2 overflow-hidden'>
             <div className='flex flex-col items-center justify-center bg-grey-lighter'>
 
@@ -137,7 +137,7 @@ const Template1 = () => {
           </div>
         </div>
 
-        <div className='flex flex-col gap-4  bg-gray-900 rounded-r-xl'>
+        <div className='flex flex-col gap-4 bg-gray-900 rounded-r-xl'>
           {/* name */}
 
           <div className='text-orange-400 text-center mt-8 justify-center px-4 flex flex-col pb-4'>
