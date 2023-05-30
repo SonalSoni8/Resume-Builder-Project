@@ -9,7 +9,7 @@ const Template4 = () => {
     const educationInfo = useSelector(state => state.educationDetailsReducer.educationInfo);
 
     const { fname, lname, email, phn, addr, city, state, pin, obje } = personalInfo;
-   
+
     useEffect(() => {
         localStorage.setItem(
             'template4Data',
@@ -18,12 +18,12 @@ const Template4 = () => {
     }, [personalInfo, keySkills, workExperience, educationInfo]);
 
     return (
-        <div className='lg:w-full lg:max-w-sm rounded-xl break-words' >
+        <div className='lg:w-full max-[320px]:w-60 max-[320px]:mx-20 lg:max-w-sm rounded-xl break-words' >
 
             <div className='flex bg-white shadow rounded-xl h-auto '>
                 <div className='flex'>
 
-                    <div className='rounded-xl bg-cyan-950 h-auto w-44 p-2 flex flex-col '>
+                    <div className='rounded-xl bg-cyan-950 h-auto max-[320px]:w-32 w-44 p-2 flex flex-col '>
                         {/* <div className="flex items-center justify-center bg-grey-lighter lg:col-start-1">
                             <div className="h-28 w-28 mt-4 flex justify-center items-center  bg-white text-blue rounded-full shadow-lg uppercase border border-blue cursor-pointer">img
                                 <img
@@ -32,6 +32,7 @@ const Template4 = () => {
                                 />
                             </div>
                         </div> */}
+
                         {/* personal info */}
                         <div className='text-white text-sm mt-4 p-2 justify-evenly flex flex-col gap-2'>
                             <h1 className='font-bold uppercase text-base'>About Me ---</h1>
@@ -70,7 +71,7 @@ const Template4 = () => {
                                 </div>
                             </div>
                         </div>
-  {/* skills */}
+                        {/* skills */}
                         {keySkills.length > 0 && (
                             <div className='text-white text-sm p-2 flex flex-col gap-2 mb-4'>
                                 <h1 className='font-bold text-white uppercase text-base'>Key Skills ---</h1>
@@ -88,7 +89,7 @@ const Template4 = () => {
                 </div>
 
                 <div className='flex flex-col gap-2 w-full rounded-xl'>
-                    <div className='mt-8 bg-cyan-600 h-auto p-4 w-full'>
+                    <div className='mt-8 bg-cyan-600 h-auto p-4 w-full max-[320px]:w-28'>
 
                         <div className='text-white uppercase'>
                             {/* name */}
@@ -99,41 +100,41 @@ const Template4 = () => {
                     </div>
 
 
-                    <div className='bg-white flex flex-col items-start justify-between'>
+                    <div className='bg-white flex flex-col items-start justify-between max-[320px]:w-28'>
                         {/* Experience */}
                         {Array.isArray(workExperience) && workExperience.length > 0 ? (
-            <div className='text-black text-sm p-4 justify-between flex flex-col gap-2'>
-              <h1 className='font-bold text-cyan-950 uppercase text-base'>Work Experience ---</h1>
-              {workExperience.map((exp, index) => (
-                <div key={index}>
-                  <h2 className='font-semibold capitalize'>{'>'} {exp.title} at {exp.org} company</h2>
-                  <div>
-                    From {exp.syear} to {exp.eyear}
-                  </div>
-                </div>
-              ))}
-            </div>
-          ) : (
-            <div></div>
-          )}
+                            <div className='text-black text-sm p-4 justify-between flex flex-col gap-2'>
+                                <h1 className='font-bold text-cyan-950 uppercase text-base'>Work Experience ---</h1>
+                                {workExperience.map((exp, index) => (
+                                    <div key={index}>
+                                        <h2 className='font-semibold capitalize'>{'>'} {exp.title} at {exp.org} company</h2>
+                                        <div>
+                                            From {exp.syear} to {exp.eyear}
+                                        </div>
+                                    </div>
+                                ))}
+                            </div>
+                        ) : (
+                            <div></div>
+                        )}
 
-          {/* Education */}
-          {Array.isArray(educationInfo) && educationInfo.length > 0 ? (
-            <div className='text-black text-sm p-4 flex flex-col gap-2'>
-              <h1 className='font-bold text-cyan-950 uppercase text-base'>Education ---</h1>
-              {educationInfo.map((education, index) => (
-                <div key={index}>
-                  <h2 className='font-semibold capitalize'>{'>'} {education.type} in {education.schur}</h2>
-                  <div>Percentage: {education.per}%</div>
-                  <div>From {education.styear} to {education.enyear}</div>
-                </div>
-              ))}
-            </div>
-          ) : (
-            <div></div>
-          )}
+                        {/* Education */}
+                        {Array.isArray(educationInfo) && educationInfo.length > 0 ? (
+                            <div className='text-black text-sm p-4 flex flex-col gap-2'>
+                                <h1 className='font-bold text-cyan-950 uppercase text-base'>Education ---</h1>
+                                {educationInfo.map((education, index) => (
+                                    <div key={index}>
+                                        <h2 className='font-semibold capitalize'>{'>'} {education.type} in {education.schur}</h2>
+                                        <div>Percentage: {education.per}%</div>
+                                        <div>From {education.styear} to {education.enyear}</div>
+                                    </div>
+                                ))}
+                            </div>
+                        ) : (
+                            <div></div>
+                        )}
 
-                      
+
                     </div>
                 </div>
             </div>

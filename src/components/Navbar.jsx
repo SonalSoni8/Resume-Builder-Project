@@ -3,7 +3,7 @@ import resumelogo from '../assets/resumelogo.png'
 import { Link } from 'react-router-dom'
 
 
-export default function NavBar(props) {
+export default function Navbar(props) {
     const [navbar, setNavbar] = useState(false);
 
     return (
@@ -65,4 +65,6 @@ export default function NavBar(props) {
         </nav>
     );
 }
+
+
 
