@@ -29,18 +29,18 @@ const Template3 = () => {
               />
             </div> */}
 
-            <div className='text-white justify-between px-2 tracking-widest uppercase text-center mt-4 '>
+            <div className='text-white justify-between px-1 tracking-widest uppercase text-center mt-2 '>
               {/* name */}
               
-              <h1 className='font-bold text-3xl '>
+              <h1 className='font-bold text-2xl '>
                 {fname} {lname}
               </h1>
             </div>
 
             {/* contact */}
-            <div className='text-white text-sm flex flex-row gap-2 items-center text-center pt-4'>
+            <div className='text-white text-sm flex flex-row gap-1 items-center text-center pt-2'>
               {/* <h1 className='font-bold'>Contact Me</h1> */}
-              <div className='flex flex-col gap-2 text-xs justify-center items-center text-center pb-4'>
+              <div className='flex flex-col gap-2 text-xs justify-center items-center text-center pb-2'>
                 <div className='flex flex-row items-center text-center gap-2'>
                   <div>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strockewidth="1.5" stroke="currentColor" className="w-4 h-4">
@@ -75,17 +75,17 @@ const Template3 = () => {
           </div>
         </div>
 
-        <div className='flex gap-2 w-full p-4 divide-x-2 rounded-xl divide-rose-950'>
+        <div className='flex gap-2 w-full p-2 divide-x-2 rounded-xl divide-rose-950'>
           <div className='w-1/2 text-left '>
             {/* personal info */}
-            <div className='text-black text-sm p-2 justify-evenly flex flex-col gap-2'>
+            <div className='text-black text-sm p-2 justify-evenly flex flex-col gap-1'>
               <h1 className='font-bold uppercase tracking-widest text-rose-950 '>About Me</h1>
               <hr className='border-2 border-rose-950'/>
               <div className=''>{obje}</div>
             </div>
             {/* skills */}
             {keySkills.length > 0 && (
-              <div className='text-black text-sm flex flex-col gap-2 p-2'>
+              <div className='text-black text-sm flex flex-col gap-1 p-2'>
                 <h1 className='font-bold uppercase tracking-widest text-rose-950 '>Key Skills</h1>
                 <hr className='border-2 border-rose-950' />
                 <div>
@@ -100,7 +100,7 @@ const Template3 = () => {
               </div>
             )}
           </div>
-          <div className='bg-white flex flex-col items-start justify-between w-1/2 mt-2 text-right gap-4 rounded-xl'>
+          <div className='bg-white flex flex-col items-start justify-between w-1/2  text-right gap-4 rounded-xl'>
             <div className='flex flex-col gap-6 p-2'>
               <div>
                 {/* Experience */}
@@ -128,7 +128,7 @@ const Template3 = () => {
               <div>
                 {/* education */}
                 {educationInfo.length > 0 ? (
-                  <div className='text-black text-sm justify-between flex flex-col gap-2'>
+                  <div className='text-black text-sm justify-between flex flex-col gap-1'>
                     <h1 className='font-bold uppercase tracking-widest text-rose-950 '>Education</h1>
                     <hr className='border-2 border-rose-950'/>
                     {educationInfo.map((education, index) => (

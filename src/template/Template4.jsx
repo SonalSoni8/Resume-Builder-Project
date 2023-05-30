@@ -34,14 +34,14 @@ const Template4 = () => {
                         </div> */}
 
                         {/* personal info */}
-                        <div className='text-white text-sm mt-4 p-2 justify-evenly flex flex-col gap-2'>
+                        <div className='text-white text-sm mt-2 p-2 justify-evenly flex flex-col gap-2'>
                             <h1 className='font-bold uppercase text-base'>About Me ---</h1>
                             <div className=''>{obje}</div>
                         </div>
 
 
                         {/* contact */}
-                        <div className='text-white text-xs mt-4 p-2 flex flex-col gap-4'>
+                        <div className='text-white text-xs mt-2 p-2 flex flex-col gap-4'>
                             <h1 className='font-bold text-sm uppercase'>Contact Me ---</h1>
                             <div className='flex flex-col gap-2'>
                                 <div className='flex flex-col gap-2'>
@@ -88,19 +88,19 @@ const Template4 = () => {
                     </div>
                 </div>
 
-                <div className='flex flex-col gap-2 w-full rounded-xl'>
-                    <div className='mt-8 bg-cyan-600 h-auto p-4 w-full max-[320px]:w-28'>
+                <div className='flex flex-col w-full rounded-xl'>
+                    <div className='mt-4 bg-cyan-600 h-auto p-2 w-full max-[320px]:w-28'>
 
                         <div className='text-white uppercase'>
                             {/* name */}
-                            <h1 className='font-bold text-2xl 
+                            <h1 className='font-bold text-xl 
                              pb-4'>{fname} {lname}</h1>
                         </div>
 
                     </div>
 
 
-                    <div className='bg-white flex flex-col items-start justify-between max-[320px]:w-28'>
+                    <div className='bg-white flex flex-col rounded-lg items-start justify-between max-[320px]:w-28'>
                         {/* Experience */}
                         {Array.isArray(workExperience) && workExperience.length > 0 ? (
                             <div className='text-black text-sm p-4 justify-between flex flex-col gap-2'>

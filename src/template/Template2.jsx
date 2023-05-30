@@ -37,9 +37,9 @@ const Template2 = () => {
           {/* personal */}
           <div className='text-black text-center'>
             {/* name */}
-            <h1 className='font-bold tracking-widest uppercase text-3xl pb-4 text-cyan-900'>{fname} {lname}</h1>
+            <h1 className='font-bold tracking-widest uppercase text-2xl pb-4 text-cyan-900'>{fname} {lname}</h1>
           </div>
-          <hr className='border border-cyan-900 mb-4' />
+          <hr className='border border-cyan-900 mb-2' />
           <div className='text-black text-sm justify-between flex flex-col items-center text-center'>
             <h1 className='font-bold uppercase tracking-widest bg-cyan-300'>About Me</h1>
             <p className=''>{obje}</p>
@@ -72,7 +72,7 @@ const Template2 = () => {
             <hr className='border border-cyan-900 mx-5' />
             {/* education */}
             {Array.isArray(educationInfo) && educationInfo.length > 0 ? (
-              <div className='text-black text-sm p-4 justify-between flex flex-col gap-2 items-center pb-8'>
+              <div className='text-black text-sm p-4 justify-between flex flex-col gap-2 items-center pb-4'>
                 <h1 className='font-bold uppercase tracking-widest bg-cyan-300'>Education</h1>
                 {educationInfo.map((education, index) => (
                   <div className='flex gap-2 flex-col text-center' key={index}>

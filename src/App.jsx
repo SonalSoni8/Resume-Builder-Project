@@ -73,12 +73,12 @@ function App() {
   };
 
   return (
-    <div className="bg-slate-100 h-full ">
+    <div className="bg-slate-100 ">
       <div className="sticky z-50 top-0">
         <Navbar />
       </div>
 
-      <div>
+      <div className="h-[120vh] ">
         <Routes>
           <Route
             exact
