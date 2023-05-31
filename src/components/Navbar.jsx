@@ -10,7 +10,7 @@ export default function Navbar(props) {
         <nav className="h-[60px] bg-slate-100 shadow dark:bg-slate-500 dark:text-white">
             <div className="justify-between px-4 mx-auto lg:max-w-7xl lg:items-center lg:grid lg:grid-cols-2 lg:px-6">
                 <div>
-                    <div className="flex items-center justify-between ">
+                    <div className="flex items-center justify-between flex-row ">
                         <Link to="/">
                             <img
                                 className=" rounded-xl h-[40px] mt-4"
@@ -19,6 +19,7 @@ export default function Navbar(props) {
                             />
 
                         </Link>
+                            {/* <p className="text-xs">Created by Sonal Soni</p> */}
 
                         <div className="lg:hidden text-gray-700 ">
                             <button className="p-2 text-black rounded-lg outline-none" onClick={() => setNavbar(!navbar)}>
