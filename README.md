@@ -30,10 +30,6 @@ Usage:
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 Proceed to fill out the forms with your details to utilize this application. Progress is automatically saved as soon as the next button is clicked. When you're ready, you may download your finished resume in PDF format and share it with recruiters.
 
-Contributor:
----------------------------------------------------------------------------------------------------------------------------------------------------------------
-As a part of AlmaBetter Full Stack Web Development, Sonal Soni worked alone to construct this project. 
-
 For Installation:
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 Follow these instructions to install and run this application on your computer:
