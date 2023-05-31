@@ -105,7 +105,7 @@ function WorkExpForm({ addWorkExperience }) {
               <div key={index}>
                 <div className="grid grid-cols-2 gap-4">
                   <div className="mb-6">
-                    <label htmlFor={`title-${index}`} className="block mb-2 text-sm font-medium text-gray-900">
+                    <label htmlFor={`title-${index}`} className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
                       Job Title
                     </label>
                     <input
@@ -120,7 +120,7 @@ function WorkExpForm({ addWorkExperience }) {
                     />
                   </div>
                   <div className="mb-6">
-                    <label htmlFor={`org-${index}`} className="block mb-2 text-sm font-medium text-gray-900">
+                    <label htmlFor={`org-${index}`} className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
                       Organization Name
                     </label>
                     <input
@@ -139,7 +139,7 @@ function WorkExpForm({ addWorkExperience }) {
                 {/* start/end date */}
                 <div className="grid grid-cols-2 gap-4">
                   <div className="mb-6">
-                    <label htmlFor={`starty-${index}`} className="block mb-2 text-sm font-medium text-gray-900">
+                    <label htmlFor={`starty-${index}`} className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
                       Start Year
                     </label>
                     <input
@@ -154,7 +154,7 @@ function WorkExpForm({ addWorkExperience }) {
                     />
                   </div>
                   <div className="mb-6">
-                    <label htmlFor={`endy-${index}`} className="block mb-2 text-sm font-medium text-gray-900">
+                    <label htmlFor={`endy-${index}`} className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
                       End Year
                     </label>
                     <input

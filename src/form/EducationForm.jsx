@@ -102,20 +102,20 @@ function EducationForm({ addEducation }) {
           </div>
 
           {/* Edu experience details form */}
-          <div className="m-6">
+          <div className="m-6 dark:text-white">
             {/* job info */}
             {education.educationInfo && education.educationInfo.map((item, index) => (
       <div key={index}>
-                <div className="mb-6">
-                    <label htmlFor={`type-${index}`} className="block mb-2 text-sm font-medium text-gray-900">
+                <div className="mb-6  dark:text-white">
+                    <label htmlFor={`type-${index}`} className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
                       Type
                     </label>
                     <input
                       type="text"
                       id={`type-${index}`}
                       name="type"
-                      className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-slate-300"
-                      placeholder="10th, 12th, Btech, Mtech, etc"
+                      className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:bg-slate-300"
+                      placeholder="10th, 12th, Btech, Mtech, etc "
                       required
                       value={item.type}
                       onChange={(e) => handleChange(e, index)}
@@ -123,14 +123,14 @@ function EducationForm({ addEducation }) {
                   </div>
                 <div className="grid grid-cols-2 gap-4">
                   <div className="mb-6">
-                    <label htmlFor={`schur-${index}`} className="block mb-2 text-sm font-medium text-gray-900">
+                    <label htmlFor={`schur-${index}`} className="block mb-2 text-sm dark:text-white font-medium text-gray-900">
                       School/ University
                     </label>
                     <input
                       type="text"
                       id={`schur-${index}`}
                       name="schur"
-                      className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-slate-300"
+                      className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500  block w-full p-2.5 dark:bg-slate-300"
                       placeholder="School/ University"
                       required
                       value={item.schur}
@@ -138,7 +138,7 @@ function EducationForm({ addEducation }) {
                     />
                   </div>
                   <div className="mb-6">
-                    <label htmlFor={`per-${index}`} className="block mb-2 text-sm font-medium text-gray-900">
+                    <label htmlFor={`per-${index}`} className="block mb-2 dark:text-white text-sm font-medium text-gray-900">
                       Percentage
                     </label>
                     <input
@@ -157,7 +157,7 @@ function EducationForm({ addEducation }) {
                 {/* start/end date */}
                 <div className="grid grid-cols-2 gap-4">
                   <div className="mb-6">
-                    <label htmlFor={`styear-${index}`} className="block mb-2 text-sm font-medium text-gray-900">
+                    <label htmlFor={`styear-${index}`} className="block mb-2 dark:text-white text-sm font-medium text-gray-900">
                       Start Year
                     </label>
                     <input
@@ -172,7 +172,7 @@ function EducationForm({ addEducation }) {
                     />
                   </div>
                   <div className="mb-6">
-                    <label htmlFor={`enyear-${index}`} className="block mb-2 text-sm font-medium text-gray-900">
+                    <label htmlFor={`enyear-${index}`} className="block mb-2 dark:text-white text-sm font-medium text-gray-900">
                       End Year
                     </label>
                     <input

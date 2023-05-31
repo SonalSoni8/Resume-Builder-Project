@@ -98,7 +98,7 @@ const PersonalInfoForm = ({ setPersonalInfo }) => {
                       ) : (
                         <p></p>
                       )}
-                      <h1 className="font-medium text-gray-900">
+                      <h1 className="font-medium text-gray-900 dark:text-white">
                         Profile Image
                       </h1>
                       <input
@@ -121,7 +121,7 @@ const PersonalInfoForm = ({ setPersonalInfo }) => {
                   <div className="mb-6">
                     <label
                       htmlFor="fname"
-                      className="block mb-2 text-sm font-medium text-gray-900"
+                      className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
                     >
                       First Name
                     </label>
@@ -139,7 +139,7 @@ const PersonalInfoForm = ({ setPersonalInfo }) => {
                   <div className="mb-6">
                     <label
                       htmlFor="lname"
-                      className="block mb-2 text-sm font-medium text-gray-900"
+                      className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
                     >
                       Last Name
                     </label>
@@ -160,7 +160,7 @@ const PersonalInfoForm = ({ setPersonalInfo }) => {
                   <div className="mb-6">
                     <label
                       htmlFor="email"
-                      className="block mb-2 text-sm font-medium text-gray-900"
+                      className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
                     >
                       Your Email
                     </label>
@@ -178,7 +178,7 @@ const PersonalInfoForm = ({ setPersonalInfo }) => {
                   <div className="mb-6">
                     <label
                       htmlFor="phn"
-                      className="block mb-2 text-sm font-medium text-gray-900"
+                      className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
                     >
                       Mobile
                     </label>
@@ -200,7 +200,7 @@ const PersonalInfoForm = ({ setPersonalInfo }) => {
                   <div className="mb-6">
                     <label
                       htmlFor="addr"
-                      className="block mb-2 text-sm font-medium text-gray-900"
+                      className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
                     >
                       Address
                     </label>
@@ -219,7 +219,7 @@ const PersonalInfoForm = ({ setPersonalInfo }) => {
                     <div className="mb-6">
                       <label
                         htmlFor="city"
-                        className="block mb-2 text-sm font-medium text-gray-900"
+                        className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
                       >
                         City
                       </label>
@@ -237,7 +237,7 @@ const PersonalInfoForm = ({ setPersonalInfo }) => {
                     <div className="mb-6">
                       <label
                         htmlFor="state"
-                        className="block mb-2 text-sm font-medium text-gray-900"
+                        className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
                       >
                         State
                       </label>
@@ -256,7 +256,7 @@ const PersonalInfoForm = ({ setPersonalInfo }) => {
                   <div className="mb-6">
                     <label
                       htmlFor="pin"
-                      className="block mb-2 text-sm font-medium text-gray-900 "
+                      className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
                     >
                       Postal Code
                     </label>
@@ -277,7 +277,7 @@ const PersonalInfoForm = ({ setPersonalInfo }) => {
                 <div className="mb-6">
                   <label
                     htmlFor="obje"
-                    className="block mb-2 text-sm font-medium text-gray-900"
+                    className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
                   >
                     Objective
                   </label>
