@@ -87,7 +87,7 @@ function App() {
 
   return (
 
-    <div className="bg-slate-100 dark:bg-slate-800 dark:text-white">
+    <div className="bg-slate-100 dark:bg-slate-800 dark:text-white h-screen">
       <div className="sticky z-50 top-0 ">
         <Navbar />
       </div>
@@ -98,7 +98,7 @@ function App() {
         </button>
       </div>
 
-      <div className=" dark:bg-slate-800 dark:text-white">
+      <div className="h-screen bg-slate-100 dark:bg-slate-800 dark:text-white">
         <Routes>
           <Route
             exact
@@ -146,7 +146,12 @@ function App() {
         </Routes>
       </div>
 
-      <Footer />
+      <div className="bottom-0 w-full mt-auto bg-slate-100">
+      <div className="pt-32">
+        {/* Add additional padding-bottom (pb) to create space for the footer */}
+        <Footer />
+      </div>
+      </div>
     </div>
 
   );

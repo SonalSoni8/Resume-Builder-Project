@@ -68,7 +68,7 @@ const Temp = ({ selectedTemplate, setSelectTemplate, setPersonalInfo, addWorkExp
   };
 
   return (
-    <div className="m-6 ">
+    <div className="m-6">
       <div className="p-2 pb-4">
         <h1 className="font-bold text-2xl">Templates</h1>
         <p className="text-base">Select your template to get started</p>
@@ -78,13 +78,13 @@ const Temp = ({ selectedTemplate, setSelectTemplate, setPersonalInfo, addWorkExp
       <div className="grid gap-4 lg:grid-cols-2 md:grid-cols-2 xl:grid-cols-4 place-items-center justify-center">
         {resume.map((template) => (
           <div
-            className={`relative  group lg:w-full rounded-xl bg-white shadow-lg lg:max-w-sm ${
+            className={`relative   group lg:w-full rounded-xl bg-white shadow-lg lg:max-w-sm ${
               template.id === selectedTemplate ? 'border-2 border-blue-500' : ''
             }`}
             key={template.id}
             onClick={() => handleTemplateClick(template.id)}
           >
-            <div className="items-center rounded-lg flex  justify-center    max-[320px]:w-[4rem] max-[320px]:mx-[100px] lg:justify-start">
+            <div className="items-center rounded-lg flex  justify-center  max-[320px]:w-[4rem] max-[320px]:mx-[100px] lg:justify-start ">
               <div className=''>{template.template}</div>
             </div>
 
