@@ -146,12 +146,11 @@ function App() {
         </Routes>
       </div>
 
-      <div className="w-full ">
-      <div className=" mx-auto py-40 w-full ">
-        <Footer />
-      </div>
-      </div>
+
+      <Footer />
+
     </div>
+
 
   );
 }
