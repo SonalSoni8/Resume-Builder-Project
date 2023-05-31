@@ -41,7 +41,7 @@ const [skills, setSkills] = useState([{ skill: '' }]);
       {/* main */}
       <div onSubmit={handleSubmit} className="lg:col-start-3 lg:col-span-4">
         {/* work form */}
-        <div className="bg-white m-6 rounded-2xl shadow">
+        <div className="bg-white m-6 rounded-2xl shadow dark:bg-slate-500 dark:text-white">
           <div className="m-6">
             <h1 className="mb-2 text-xl pt-4">Key Skills</h1>
 
@@ -59,7 +59,7 @@ const [skills, setSkills] = useState([{ skill: '' }]);
                     type="text"
                     id={`skill-${index}`} // Add unique id for each input field
                     name="skill"
-                    className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                    className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-slate-300"
                     placeholder="HTML"
                     required
                     value={i.skill}

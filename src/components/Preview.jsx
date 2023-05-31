@@ -116,7 +116,7 @@ const Preview = ({
   };
 
   return (
-    <div className='bg-white m-6 rounded-2xl shadow p-2 relative '>
+    <div className='bg-white m-6 rounded-2xl shadow p-2 relative dark:bg-slate-500'>
       <div className='m-6 mt-0'>
         <h1 className='mb-2 text-2xl font-semibold pt-4'>Resume Preview</h1>
         <hr />
@@ -125,7 +125,7 @@ const Preview = ({
       {/* template selected */}
       <div className='lg:grid lg:grid-cols-2 pb-4 '>
         <div className=' lg:mx-40'>
-          <div className='rounded-xl bg-white shadow-lg items-center flex justify-center max-[320px]:scale-x-[85%] max-[320px]:w-full' ref={captureRef}>
+          <div className='rounded-xl bg-white  shadow-lg items-center flex justify-center max-[320px]:scale-x-[85%] max-[320px]:w-full' ref={captureRef}>
             {templateComponent}
           </div>
         </div>
@@ -134,13 +134,13 @@ const Preview = ({
           {/* file name */}
           <div className='p-6'>
             <div className='mb-6 lg:px-36'>
-              <label htmlFor='file' className='block mb-2 text-sm font-medium text-gray-900'>
+              <label htmlFor='file' className='block mb-2 text-sm font-medium text-gray-900 dark:text-white'>
                 Create file name
               </label>
               <input
                 type='text'
                 id='file'
-                className='bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5'
+                className='bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg  block w-full p-2.5 dark:bg-slate-300'
                 placeholder='File name'
                 value={fileName}
                 onChange={(e) => setFileName(e.target.value)}
@@ -171,7 +171,7 @@ const Preview = ({
 
           {/* change template btn*/}
           <div>
-            <h1 htmlFor='file' className='block mb-2 text-base font-medium text-gray-900 text-center'>
+            <h1 htmlFor='file' className='block mb-2 text-base font-medium text-gray-900 text-center  dark:text-white'>
               Change Template:
             </h1>
             <div className='grid grid-cols-2 lg:grid-cols-4 gap-4 lg:px-20 items-center'>

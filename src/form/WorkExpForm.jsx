@@ -81,7 +81,7 @@ function WorkExpForm({ addWorkExperience }) {
 
 
   return (
-    <div className="lg:grid lg:grid-cols-6">
+    <div className="lg:grid lg:grid-cols-6 ">
       {/* side */}
       <div className="lg:col-start-1 lg:col-span-2">
         <SideBarForm />
@@ -91,7 +91,7 @@ function WorkExpForm({ addWorkExperience }) {
       <div onSubmit={handleSubmit} className="lg:col-start-3 lg:col-span-4">
         {/* work form */}
 
-        <div className="bg-white m-6 rounded-2xl shadow">
+        <div className="bg-white m-6 rounded-2xl shadow dark:bg-slate-500 dark:text-white">
           <div className="m-6">
             <h1 className="mb-6 text-xl pt-4">Work Experience</h1>
             <h1 className="mb-2 text-sm">Experience 1</h1>
@@ -112,7 +112,7 @@ function WorkExpForm({ addWorkExperience }) {
                       type="text"
                       id={`title-${index}`}
                       name="title"
-                      className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                      className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-slate-300"
                       placeholder="job title"
                       required
                       value={item.title}
@@ -127,7 +127,7 @@ function WorkExpForm({ addWorkExperience }) {
                       type="text"
                       id={`org-${index}`}
                       name="org"
-                      className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                      className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-slate-300"
                       placeholder="organization name"
                       required
                       value={item.org}
@@ -146,7 +146,7 @@ function WorkExpForm({ addWorkExperience }) {
                       type="month"
                       id={`starty-${index}`}
                       name="syear"
-                      className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                      className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-slate-300"
                       placeholder="Select Year"
                       required
                       value={item.syear}
@@ -161,7 +161,7 @@ function WorkExpForm({ addWorkExperience }) {
                       type="month"
                       id={`endy-${index}`}
                       name="eyear"
-                      className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-red-700 block w-full p-2.5"
+                      className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-red-700 block w-full p-2.5 dark:bg-slate-300"
                       placeholder="Select date"
                       value={item.eyear}
                       onChange={(e) => handleChange(e, index)}

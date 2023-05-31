@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import AboutUs from './components/AboutUs';
@@ -72,13 +72,33 @@ function App() {
     localStorage.setItem('formData', JSON.stringify(formData));
   };
 
+  const [theme, setTheme] = useState('light')
+  useEffect(() => {
+    if (theme === 'dark') {
+      document.documentElement.classList.add('dark')
+    } else {
+      document.documentElement.classList.remove('dark')
+    }
+  })
+
+  const handleThemeSwitch = () => {
+    setTheme(theme === 'dark' ? 'light' : 'dark')
+  }
+
   return (
-    <div className="bg-slate-100 ">
-      <div className="sticky z-50 top-0">
+
+    <div className="bg-slate-100 dark:bg-slate-800 dark:text-white">
+      <div className="sticky z-50 top-0 ">
         <Navbar />
       </div>
 
-      <div className="h-[120vh] ">
+      <div>
+        <button className='bg-neutral-300 p-2 mt-2 -mb-60 mx-4 rounded-lg ' onClick={handleThemeSwitch}>
+          Dark Mode
+        </button>
+      </div>
+
+      <div className=" dark:bg-slate-800 dark:text-white">
         <Routes>
           <Route
             exact
@@ -93,7 +113,7 @@ function App() {
               />
             }
           />
-          
+
           <Route exact path="/aboutus" element={<AboutUs />} />
           <Route
             path="/perinfo"
@@ -128,6 +148,7 @@ function App() {
 
       <Footer />
     </div>
+
   );
 }
 

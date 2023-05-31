@@ -3,13 +3,13 @@ import about from '../assets/about.png';
 
 export default function Preview(props) {
   return (
-    <div>
-      <div className="bg-white m-6 rounded-2xl shadow lg:pb-8 overflow-hidden">
+    <div className=''>
+      <div className="bg-white dark:bg-slate-500 m-6 rounded-2xl shadow lg:pb-8 overflow-hidden">
         {/* about */}
-        <div className="lg:grid lg:grid-cols-2 lg:justify-center lg:items-center lg:mx-40 lg:p-2">
+        <div className="lg:grid lg:grid-cols-2  lg:justify-center lg:items-center lg:mx-40 lg:p-2">
           <div className="w-full p-6">
             <h1 className="mb-2 text-5xl">About Us</h1>
-            <p className="text-xl tracking-wider pt-4">
+            <p className="md:text-xl tracking-wider pt-4 sm:text-xs">
               Welcome to our Resume Builder website! We are dedicated to helping job seekers create professional and effective resumes that will stand out to employers. Our easy-to-use platform offers customizable templates, expert writing tips, and a variety of formatting options to ensure that your resume showcases your unique skills and experiences. Whether you're a recent graduate or a seasoned professional, we are here to support you in your job search and help you land the career of your dreams. Let us help you build a resume that will make a lasting impression!
             </p>
 

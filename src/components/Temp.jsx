@@ -84,7 +84,7 @@ const Temp = ({ selectedTemplate, setSelectTemplate, setPersonalInfo, addWorkExp
             key={template.id}
             onClick={() => handleTemplateClick(template.id)}
           >
-            <div className="items-center rounded-lg flex  justify-center    max-[320px]:w-[4rem] max-[320px]:mx-[100px]">
+            <div className="items-center rounded-lg flex  justify-center    max-[320px]:w-[4rem] max-[320px]:mx-[100px] lg:justify-start">
               <div className=''>{template.template}</div>
             </div>
 

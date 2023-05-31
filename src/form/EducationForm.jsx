@@ -94,7 +94,7 @@ function EducationForm({ addEducation }) {
       <div onSubmit={handleSubmit} className="lg:col-start-3 lg:col-span-4">
         {/* Edu form */}
 
-        <div className="bg-white m-6 rounded-2xl shadow">
+        <div className="bg-white m-6 rounded-2xl shadow dark:bg-slate-500 dark:text-white">
           <div className="m-6">
             <h1 className="mb-6 text-xl pt-4">Education</h1>
             {/* <h1 className="mb-2 text-sm">Experience 1</h1> */}
@@ -114,7 +114,7 @@ function EducationForm({ addEducation }) {
                       type="text"
                       id={`type-${index}`}
                       name="type"
-                      className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                      className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-slate-300"
                       placeholder="10th, 12th, Btech, Mtech, etc"
                       required
                       value={item.type}
@@ -130,7 +130,7 @@ function EducationForm({ addEducation }) {
                       type="text"
                       id={`schur-${index}`}
                       name="schur"
-                      className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                      className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-slate-300"
                       placeholder="School/ University"
                       required
                       value={item.schur}
@@ -145,7 +145,7 @@ function EducationForm({ addEducation }) {
                       type="number"
                       id={`per-${index}`}
                       name="per"
-                      className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                      className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-slate-300"
                       placeholder="Percentage"
                       required
                       value={item.per}
@@ -164,7 +164,7 @@ function EducationForm({ addEducation }) {
                       type="month"
                       id={`styear-${index}`}
                       name="styear"
-                      className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                      className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-slate-300"
                       placeholder="Select Year"
                       required
                       value={item.styear}
@@ -179,7 +179,7 @@ function EducationForm({ addEducation }) {
                       type="month"
                       id={`enyear-${index}`}
                       name="enyear"
-                      className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                      className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-slate-300"
                       placeholder="Select date"
                       value={item.enyear}
                       onChange={(e) => handleChange(e, index)}

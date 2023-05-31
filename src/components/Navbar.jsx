@@ -7,7 +7,7 @@ export default function Navbar(props) {
     const [navbar, setNavbar] = useState(false);
 
     return (
-        <nav className="h-[60px] bg-slate-100 shadow">
+        <nav className="h-[60px] bg-slate-100 shadow dark:bg-slate-500 dark:text-white">
             <div className="justify-between px-4 mx-auto lg:max-w-7xl lg:items-center lg:grid lg:grid-cols-2 lg:px-6">
                 <div>
                     <div className="flex items-center justify-between ">
@@ -42,19 +42,19 @@ export default function Navbar(props) {
                 </div>
 
                 <div
-                    className={`flex mx-44 justify-self-center max-[320px]:mx-28 mt-2 md:mx-[550px] lg:block rounded-xl p-2 bg-white shadow-lg lg:shadow-none w-44 lg:w-full lg:bg-slate-100 ${navbar ? "block" : "hidden"
+                    className={`flex mx-44 justify-self-center max-[320px]:mx-28 mt-2 md:mx-[550px] lg:block rounded-xl p-2 bg-white  dark:bg-slate-400 md:dark:bg-slate-500 shadow-lg lg:shadow-none w-44 lg:w-full lg:bg-slate-100 ${navbar ? "block" : "hidden"
                         }`}
                 >
                     <div className='flex-1 justify-self-center  pb-3 mt-8 lg:block lg:pb-0 lg:mt-0 '
                     >
-                        <ul className="items-center justify-center text-transparent bg-black space-y-8 lg:flex lg:space-x-6 lg:space-y-0 font-bold px-2 bg-clip-text">
-                            <li className="hover:text-slate-500 hover:underline">
+                        <ul className="items-center justify-center text-transparent bg-black space-y-8 lg:flex lg:space-x-6 lg:space-y-0 font-bold px-2 bg-clip-text dark:text-white">
+                            <li className="hover:text-slate-500 hover:underline hover:dark:text-slate-300">
                                 <Link to="/">Resume Templates</Link>
                             </li>
-                            <li className="hover:underline hover:text-slate-500">
+                            <li className="hover:underline hover:text-slate-500 hover:dark:text-slate-300">
                                 <Link to="/pre">My Resume</Link>
                             </li>
-                            <li className="hover:underline  hover:text-slate-500">
+                            <li className="hover:underline  hover:text-slate-500 hover:dark:text-slate-300">
                                 <Link to="/aboutus">About Us</Link>
                             </li>
                         </ul>

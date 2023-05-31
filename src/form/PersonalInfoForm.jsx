@@ -79,7 +79,7 @@ const PersonalInfoForm = ({ setPersonalInfo }) => {
 
       {/* main */}
       <div className="lg:col-start-3 lg:col-span-4">
-        <div className="bg-white m-6 rounded-2xl shadow">
+        <div className="bg-white m-6 rounded-2xl shadow dark:bg-slate-500 dark:text-white">
           <form onSubmit={handleSubmit}>
             {/* personal details form */}
             <div className="m-6">
@@ -129,7 +129,7 @@ const PersonalInfoForm = ({ setPersonalInfo }) => {
                       type="text"
                       id="fname"
                       name="fname"
-                      className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                      className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-slate-300"
                       placeholder="First Name"
                       required
                       value={formData.fname}
@@ -147,7 +147,7 @@ const PersonalInfoForm = ({ setPersonalInfo }) => {
                       type="text"
                       id="lname"
                       name="lname"
-                      className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                      className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-slate-300"
                       placeholder="Last Name"
                       required
                       value={formData.lname}
@@ -168,7 +168,7 @@ const PersonalInfoForm = ({ setPersonalInfo }) => {
                       type="email"
                       id="email"
                       name="email"
-                      className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                      className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-slate-300"
                       placeholder="example@gmail.com"
                       required
                       value={formData.email}
@@ -186,7 +186,7 @@ const PersonalInfoForm = ({ setPersonalInfo }) => {
                       type="tel"
                       id="phn"
                       name="phn"
-                      className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                      className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-slate-300"
                       placeholder="0000000000"
                       required
                       value={formData.phn}
@@ -208,7 +208,7 @@ const PersonalInfoForm = ({ setPersonalInfo }) => {
                       type="text"
                       id="addr"
                       name="addr"
-                      className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                      className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-slate-300"
                       placeholder="27, street"
                       required
                       value={formData.addr}
@@ -227,7 +227,7 @@ const PersonalInfoForm = ({ setPersonalInfo }) => {
                         type="text"
                         id="city"
                         name="city"
-                        className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                        className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-slate-300"
                         placeholder="city"
                         required
                         value={formData.city}
@@ -245,7 +245,7 @@ const PersonalInfoForm = ({ setPersonalInfo }) => {
                         type="text"
                         id="state"
                         name="state"
-                        className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                        className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-slate-300"
                         placeholder="state"
                         required
                         value={formData.state}
@@ -256,7 +256,7 @@ const PersonalInfoForm = ({ setPersonalInfo }) => {
                   <div className="mb-6">
                     <label
                       htmlFor="pin"
-                      className="block mb-2 text-sm font-medium text-gray-900"
+                      className="block mb-2 text-sm font-medium text-gray-900 "
                     >
                       Postal Code
                     </label>
@@ -264,7 +264,7 @@ const PersonalInfoForm = ({ setPersonalInfo }) => {
                       type="number"
                       id="pin"
                       name="pin"
-                      className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 appearance-none"
+                      className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 appearance-none dark:bg-slate-300"
                       placeholder="Postal Code"
                       required
                       value={formData.pin}
@@ -287,7 +287,7 @@ const PersonalInfoForm = ({ setPersonalInfo }) => {
                     type="text"
                     id="obje"
                     name="obje"
-                    className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                    className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-slate-300"
                     placeholder="objective"
                     required
                     value={formData.obje}
