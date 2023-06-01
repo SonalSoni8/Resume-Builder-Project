@@ -19,9 +19,9 @@ const Template2 = () => {
 
 
   return (
-    <div className='lg:w-full lg:max-w-sm p-2  break-words'>
+    <div className='lg:w-full lg:max-w-sm p-2 break-words '>
 
-      <div className='flex flex-col bg-white shadow rounded-lg h-auto border border-cyan-900' >
+      <div className='flex flex-col bg-white shadow rounded-lg border border-cyan-900 h-auto min-h-[724px]' >
         <div className='  h-auto w-full p-2 items-center px-8'>
 
           {/* img */}
@@ -52,7 +52,7 @@ const Template2 = () => {
           <div>
             {/* Experience */}
             {Array.isArray(workExperience) && workExperience.length > 0 ? (
-              <div className='text-black text-sm p-4 justify-start flex flex-col gap-2 items-start text-start'>
+              <div className='text-black text-sm p-4 justify-start flex flex-col gap-2 items-start text-start capitalize'>
                 <h1 className='font-bold uppercase tracking-widest bg-cyan-300'>Work Experience</h1>
                 {workExperience.map((experiences, index) => (
                   <div className='flex flex-col gap-2' key={index}>
@@ -69,10 +69,10 @@ const Template2 = () => {
               <p></p>
             )}
 
-            <hr className='border border-cyan-900 mx-5' />
+            <hr className='border border-cyan-900 mx-5 ' />
             {/* education */}
             {Array.isArray(educationInfo) && educationInfo.length > 0 ? (
-              <div className='text-black text-sm p-4 justify-start flex flex-col gap-2 items-start pb-4'>
+              <div className='text-black text-sm p-4 justify-start flex flex-col gap-2 items-start pb-4 capitalize'>
                 <h1 className='font-bold uppercase tracking-widest bg-cyan-300'>Education</h1>
                 {educationInfo.map((education, index) => (
                   <div className='flex gap-2 flex-col text-start' key={index}>
@@ -94,7 +94,7 @@ const Template2 = () => {
           <div>
             {/* skills */}
             {keySkills.length > 0 && (
-              <div className='text-black text-sm p-4 justify-start flex flex-col gap-2 items-start '>
+              <div className='text-black text-sm p-4 justify-start flex flex-col gap-2 items-start  '>
                 <h1 className='font-bold uppercase tracking-widest bg-cyan-300'>Key Skills</h1>
                 <div>
                   <ul className='flex flex-col '>
@@ -124,7 +124,7 @@ const Template2 = () => {
 
                 {email}</div>
 
-              <div className='flex flex-col items-start gap-2 text-start '>
+              <div className='flex flex-col items-start gap-2 text-start capitalize'>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strockewidth="1.5" stroke="currentColor" className="w-5 h-5 text-cyan-500">
                   <path strokeLinecap="round" strocklinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
                   <path strokeLinecap="round" strocklinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />

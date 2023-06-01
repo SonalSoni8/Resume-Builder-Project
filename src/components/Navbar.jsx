@@ -19,7 +19,7 @@ export default function Navbar(props) {
                             />
 
                         </Link>
-                            {/* <p className="text-xs">Created by Sonal Soni</p> */}
+                            
 
                         <div className="lg:hidden text-gray-700 ">
                             <button className="p-2 text-black rounded-lg outline-none" onClick={() => setNavbar(!navbar)}>

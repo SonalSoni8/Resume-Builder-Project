@@ -86,7 +86,7 @@ function App() {
   }
 
   return (
-
+<>
     <div className="bg-slate-100 dark:bg-slate-800 dark:text-white h-auto pb-96">
       <div className="sticky z-50 top-0 ">
         <Navbar />
@@ -147,11 +147,11 @@ function App() {
       </div>
 
 
-      {/* <Footer /> */}
 
     </div>
+      <Footer />
 
-
+</>
   );
 }
 

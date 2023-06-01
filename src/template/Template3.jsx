@@ -18,7 +18,7 @@ const Template3 = () => {
 
   return (
     <div className='lg:w-full lg:max-w-sm rounded-xl  break-words'>
-      <div className='flex flex-col bg-white shadow rounded-lg h-auto'>
+      <div className='flex flex-col bg-white shadow rounded-lg min-h-[724px] h-auto'>
         <div className='bg-rose-950 h-auto w-full p-2 rounded-t-xl'>
           <div className="flex flex-col px-4 items-center justify-center bg-grey-lighter divide-y-4 divide divide-white gap-4 ">
             {/* <div className="h-40 w-40 mt-4 flex justify-center items-center  bg-white text-blue shadow-lg uppercase border border-blue cursor-pointer">
@@ -80,14 +80,14 @@ const Template3 = () => {
             {/* personal info */}
             <div className='text-black text-sm p-2 justify-evenly flex flex-col gap-1'>
               <h1 className='font-bold uppercase tracking-widest text-rose-950 '>About Me</h1>
-              <hr className='border-2 border-rose-950'/>
+              <hr className='border-2 border-rose-950 mt-2'/>
               <div className=''>{obje}</div>
             </div>
             {/* skills */}
             {keySkills.length > 0 && (
               <div className='text-black text-sm flex flex-col gap-1 p-2'>
                 <h1 className='font-bold uppercase tracking-widest text-rose-950 '>Key Skills</h1>
-                <hr className='border-2 border-rose-950' />
+                <hr className='border-2 mt-2 border-rose-950' />
                 <div>
                   <ul className='flex flex-col capitalize'>
                     {keySkills.map((skill, index) => (
@@ -108,7 +108,7 @@ const Template3 = () => {
                   <div className='text-black text-sm justify-between flex flex-col gap-2'>
                     <div className=''>
                       <h1 className='font-bold uppercase tracking-widest text-rose-950 '>Work Experience</h1>
-                      <hr className='border-2 border-rose-950'/>
+                      <hr className='border-2 border-rose-950 mt-2'/>
                     </div>
                     {workExperience.map((exp, index) => (
                       <div key={index}>
@@ -130,7 +130,7 @@ const Template3 = () => {
                 {educationInfo.length > 0 ? (
                   <div className='text-black text-sm justify-between flex flex-col gap-1'>
                     <h1 className='font-bold uppercase tracking-widest text-rose-950 '>Education</h1>
-                    <hr className='border-2 border-rose-950'/>
+                    <hr className='border-2 border-rose-950 mt-2'/>
                     {educationInfo.map((education, index) => (
                       <div key={index}>
                         <h2 className='font-semibold'>

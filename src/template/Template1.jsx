@@ -45,7 +45,7 @@ const Template1 = () => {
   return (
     <div className='lg:w-full lg:max-w-sm rounded-xl break-words' >
 
-      <div className='flex bg-white shadow rounded-xl h-auto '>
+      <div className='flex bg-white shadow rounded-xl h-auto  min-h-[724px]'>
         <div className='flex'>
 
           <div className='rounded-xl bg-white h-auto p-2 flex gap-2 flex-col '>
@@ -80,7 +80,7 @@ const Template1 = () => {
                 </div>
                   <div>{email}</div></div>
 
-                <div className='flex self-start gap-2'>
+                <div className='flex self-start gap-2 capitalize'>
                   <div><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strockewidth="1.5" stroke="currentColor" className="w-4 h-4 text-orange-400">
                     <path strokeLinecap="round" strocklinejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
                   </svg>
@@ -102,7 +102,7 @@ const Template1 = () => {
 
              {/* Education */}
              {Array.isArray(educationInfo) && educationInfo.length > 0 ? (
-              <div className='text-black text-sm flex flex-col gap-2'>
+              <div className='text-black text-sm capitalize flex flex-col gap-2'>
                 <h1 className='font-bold text-white uppercase text-sm p-2 bg-orange-400 text-center'>Education</h1>
                 {educationInfo.map((education, index) => (
                   <div key={index} className='px-2'>
@@ -119,7 +119,7 @@ const Template1 = () => {
             
             {/* skills */}
             {keySkills.length > 0 && (
-              <div className='text-black text-sm flex  flex-col gap-2 mb-4'>
+              <div className='text-black capitalize text-sm flex  flex-col gap-2 mb-4'>
                 <h1 className='font-bold text-white text-center uppercase text-sm p-2 bg-orange-400'>Key Skills</h1>
                 <div>
                   <ul className='flex flex-col px-2'>
@@ -137,8 +137,8 @@ const Template1 = () => {
 
         
 
-        <div className='flex flex-col gap-2 w-full rounded-xl text-white bg-gray-900'>
-          <div className='mt-8 h-auto p-2 w-full'>
+        <div className='flex flex-col gap-2 w-1/2 rounded-xl text-white bg-gray-900 min-h-[724px] h-auto'>
+          <div className='mt-8  p-2 w-full '>
 
             <div className='text-orange-400 black uppercase text-center'>
               {/* name */}
@@ -151,18 +151,18 @@ const Template1 = () => {
           {/* personal info */}
           <div className='  mt-4 justify-evenly flex flex-col gap-2'>
             <h1 className='font-bold uppercase text-sm p-2 text-center bg-orange-400'>About Me</h1>
-            <div className='px-2'>{obje}</div>
+            <div className='px-2 text-sm '>{obje}</div>
           </div>
 
           <div className=' flex flex-col'>
             {/* work Experience */}
             {Array.isArray(workExperience) && workExperience.length > 0 ? (
-              <div className='mt-2 justify-between flex flex-col gap-2'>
+              <div className='mt-2 justify-between mb-4 flex flex-col gap-2 capitalize'>
                 <h1 className='font-bold uppercase text-sm p-2 text-center bg-orange-400'>Work Experience</h1>
                 {workExperience.map((exp, index) => (
                   <div key={index} className='text-sm px-2'>
-                    <h2 className='font-semibold capitalize'>{'~'} {exp.title} at {exp.org} company</h2>
-                    <div className=''>
+                    <h2 className='font-semibold capitalize '>{'~'} {exp.title} at {exp.org} company</h2>
+                    <div className='text-sm'>
                       From {exp.syear} to {exp.eyear}
                     </div>
                   </div>
