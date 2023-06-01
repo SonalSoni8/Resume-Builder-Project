@@ -68,7 +68,7 @@ const Temp = ({ selectedTemplate, setSelectTemplate, setPersonalInfo, addWorkExp
   };
 
   return (
-    <div className="m-6">
+    <div className="m-6 ">
       <div className="p-2 pb-4">
         <h1 className="font-bold text-2xl">Templates</h1>
         <p className="text-base">Select your template to get started</p>

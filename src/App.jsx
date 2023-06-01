@@ -87,7 +87,7 @@ function App() {
 
   return (
 
-    <div className="bg-slate-100 dark:bg-slate-800 dark:text-white min-h-screen">
+    <div className="bg-slate-100 dark:bg-slate-800 dark:text-white h-auto pb-96">
       <div className="sticky z-50 top-0 ">
         <Navbar />
       </div>
@@ -98,7 +98,7 @@ function App() {
         </button>
       </div>
 
-      <div className="md:h-screen dark:bg-slate-800 dark:text-white">
+      <div className="bg-slate-100 mb-6 dark:bg-slate-800 dark:text-white">
         <Routes>
           <Route
             exact

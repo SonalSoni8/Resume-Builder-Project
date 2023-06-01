@@ -12,7 +12,7 @@ export default function Preview(props) {
             <p className="md:text-xl tracking-wider pt-4 sm:text-xs">
               Welcome to our Resume Builder website! We are dedicated to helping job seekers create professional and effective resumes that will stand out to employers. Our easy-to-use platform offers customizable templates, expert writing tips, and a variety of formatting options to ensure that your resume showcases your unique skills and experiences. Whether you're a recent graduate or a seasoned professional, we are here to support you in your job search and help you land the career of your dreams. Let us help you build a resume that will make a lasting impression!
             </p>
-
+{/* <p className="text-sm pt-4">Created by Sonal Soni</p> */}
             {/* social media share */}
             <div className="">
               <h1 className="mt-4 text-lg font-medium">Share with your friends</h1>
