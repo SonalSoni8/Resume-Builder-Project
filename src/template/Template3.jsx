@@ -128,7 +128,7 @@ const Template3 = () => {
               <div>
                 {/* education */}
                 {educationInfo.length > 0 ? (
-                  <div className='text-black text-sm justify-between flex flex-col gap-1'>
+                  <div className='text-black text-sm justify-between flex flex-col gap-1 mb-4'>
                     <h1 className='font-bold uppercase tracking-widest text-rose-950 '>Education</h1>
                     <hr className='border-2 border-rose-950 mt-2'/>
                     {educationInfo.map((education, index) => (
