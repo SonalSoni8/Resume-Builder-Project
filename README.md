@@ -53,14 +53,20 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 <b>Summary:</b><br>
 Choose your favorite template design then enter your personal details, work experience if any, education details, and your key skills. All the data are saved automatically as you press the next button also on reload data is saved. Then on the preview page, you will see your selected template, if you like you can change your template design from there.
 At last, enter the file name from which you like to save/download the pdf file.
-<br><br>
+<br></br>
+
 <b>Features:</b><br>
 1. An easy-to-use form for entering information about yourself, work history, education, and skills.
 2. On the preview page options are provided to switch between template designs.
 3. Tailwind CSS design for a creative and unified appearance of templates.
 4. View finalized resumes in PDF format and downloaded them according to your chosen file name.
-<br><br>
+<br></br>
 
+<b>For video demonstration:</b> 
+<a href ="https://drive.google.com/file/d/13Yawhqt-QNKzQA4_elidyxH7EcBY69lX/view?usp=sharing"/>
+  Video Here
+  </a>
+ <br></br>
 
 <b>Languages and Tools used: </b>
 
@@ -72,7 +78,7 @@ At last, enter the file name from which you like to save/download the pdf file.
   <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40"/>&nbsp;
  <img src="https://github.com/devicons/devicon/blob/master/icons/tailwindcss/tailwindcss-plain.svg" title="TailwindCSS" alt="tailwind" width="40" height="40"/>&nbsp;
  <img src="https://static.wikia.nocookie.net/logopedia/images/a/a7/Vercel_favicon.svg/revision/latest?cb=20221026155821" title="vercel" alt="vercel" width="40" height="40"/>&nbsp;
-</div><br>
+</div><br></br>
 
 
 <b>Project Components:</b><br>
@@ -100,10 +106,3 @@ At last, enter the file name from which you like to save/download the pdf file.
 <br></br><img src="https://github.com/SonalSoni8/Resume-Builder-Project/blob/main/screenshots/Screenshot%20(10).png" width="1400" height="500"/><br></br>
 
 
-<b>For video demonstration:</b> 
-<a href ="https://drive.google.com/file/d/13Yawhqt-QNKzQA4_elidyxH7EcBY69lX/view?usp=sharing"/>
-  Video Here
-  </a>
- <br>
- 
- <br>
