@@ -74,13 +74,13 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 <br></br><img src="https://github.com/SonalSoni8/Resume-Builder-Project/blob/main/screenshots/Screenshot%20(6).png" width="1400" height="500"/><br></br>
 <br><b>➤ About Us Component:</b> 
 <br></br><img src="https://github.com/SonalSoni8/Resume-Builder-Project/blob/main/screenshots/Screenshot%20(7).png" width="1400" height="500"/><br></br>
-<br><b>➤ Dark MOde:</b> 
-<br></br><img src="https://github.com/SonalSoni8/Resume-Builder-Project/blob/main/screenshots/Screenshot%20(9).png" width="1400" height="500"/><br></br>
-<br></br><img src="https://github.com/SonalSoni8/Resume-Builder-Project/blob/main/screenshots/Screenshot%20(11).png" width="1400" height="500"/><br></br>
-<br></br><img src="https://github.com/SonalSoni8/Resume-Builder-Project/blob/main/screenshots/Screenshot%20(12).png" width="1400" height="500"/><br></br>
-<br></br><img src="https://github.com/SonalSoni8/Resume-Builder-Project/blob/main/screenshots/Screenshot%20(13).png" width="1400" height="500"/><br></br>
-<br></br><img src="https://github.com/SonalSoni8/Resume-Builder-Project/blob/main/screenshots/Screenshot%20(14).png" width="1400" height="500"/><br></br>
-<br></br><img src="https://github.com/SonalSoni8/Resume-Builder-Project/blob/main/screenshots/Screenshot%20(8).png" width="1400" height="500"/><br></br>
+<br><b>➤ Dark Mode:</b> 
+<br></br><img src="https://github.com/SonalSoni8/Resume-Builder-Project/blob/main/screenshots/Screenshot%20(9).png" width="1400" height="500"/><br>
+<br></br><img src="https://github.com/SonalSoni8/Resume-Builder-Project/blob/main/screenshots/Screenshot%20(11).png" width="1400" height="500"/><br>
+<br></br><img src="https://github.com/SonalSoni8/Resume-Builder-Project/blob/main/screenshots/Screenshot%20(12).png" width="1400" height="500"/><br>
+<br></br><img src="https://github.com/SonalSoni8/Resume-Builder-Project/blob/main/screenshots/Screenshot%20(13).png" width="1400" height="500"/><br>
+<br></br><img src="https://github.com/SonalSoni8/Resume-Builder-Project/blob/main/screenshots/Screenshot%20(14).png" width="1400" height="500"/><br>
+<br></br><img src="https://github.com/SonalSoni8/Resume-Builder-Project/blob/main/screenshots/Screenshot%20(8).png" width="1400" height="500"/><br>
 <br></br><img src="https://github.com/SonalSoni8/Resume-Builder-Project/blob/main/screenshots/Screenshot%20(10).png" width="1400" height="500"/><br></br>
 
 
