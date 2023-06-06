@@ -72,6 +72,8 @@ function App() {
     localStorage.setItem('formData', JSON.stringify(formData));
   };
 
+
+  // dark mode setting
   const [theme, setTheme] = useState('light')
   useEffect(() => {
     if (theme === 'dark') {

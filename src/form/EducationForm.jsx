@@ -97,7 +97,7 @@ function EducationForm({ addEducation }) {
         <div className="bg-white m-6 rounded-2xl shadow dark:bg-slate-500 dark:text-white">
           <div className="m-6">
             <h1 className="mb-6 text-xl pt-4">Education</h1>
-            {/* <h1 className="mb-2 text-sm">Experience 1</h1> */}
+           
             <hr />
           </div>
 
@@ -234,7 +234,7 @@ function EducationForm({ addEducation }) {
   );
 }
 
-// export default connect(null, { addEducation })(EducationForm);
+
 const mapDispatchToProps = (dispatch) => {
   return {
     addEducation: (education) => dispatch( addEducation(education)),
