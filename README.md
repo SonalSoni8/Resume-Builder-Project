@@ -61,27 +61,27 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 <b>Project Components:</b><br>
 <b>➤ Home Component :</b> From this component user can choose their favourite template.
-<br></br><img src="https://github.com/SonalSoni8/Resume-Builder-Project/blob/main/screenshots/Screenshot%20(1).png" width="1080" height="1920"/><br></br>
+<br></br><img src="https://github.com/SonalSoni8/Resume-Builder-Project/blob/main/screenshots/Screenshot%20(1).png" width="1400" height="500"/><br></br>
 <br><b>➤ Personal Information Component:</b> In this component user have to enter their personal details.
-<br></br><img src="https://github.com/SonalSoni8/Resume-Builder-Project/blob/main/screenshots/Screenshot%20(2).png" width="400" height="900"/><br></br>
+<br></br><img src="https://github.com/SonalSoni8/Resume-Builder-Project/blob/main/screenshots/Screenshot%20(2).png" width="1400" height="500"/><br></br>
 <br><b>➤ Work Experience Component:</b> In this component user have to enter their past work details.
-<br></br><img src="https://github.com/SonalSoni8/Resume-Builder-Project/blob/main/screenshots/Screenshot%20(3).png" width="400" height="900"/><br></br>
+<br></br><img src="https://github.com/SonalSoni8/Resume-Builder-Project/blob/main/screenshots/Screenshot%20(3).png" width="1400" height="500"/><br></br>
 <br><b>➤ Education Component:</b> In this component user have to enter their personal details.
-<br></br><img src="https://github.com/SonalSoni8/Resume-Builder-Project/blob/main/screenshots/Screenshot%20(4).png" width="400" height="900"/><br></br>
+<br></br><img src="https://github.com/SonalSoni8/Resume-Builder-Project/blob/main/screenshots/Screenshot%20(4).png" width="1400" height="500"/><br></br>
 <br><b>➤ Key Skills Component:</b> In this component user have to enter their personal details.
-<br></br><img src="https://github.com/SonalSoni8/Resume-Builder-Project/blob/main/screenshots/Screenshot%20(5).png" width="400" height="900"/><br></br>
+<br></br><img src="https://github.com/SonalSoni8/Resume-Builder-Project/blob/main/screenshots/Screenshot%20(5).png" width="1400" height="500"/><br></br>
 <br><b>➤ Preview Component:</b> In this component user have to enter their personal details.
-<br></br><img src="https://github.com/SonalSoni8/Resume-Builder-Project/blob/main/screenshots/Screenshot%20(6).png" width="400" height="900"/><br></br>
+<br></br><img src="https://github.com/SonalSoni8/Resume-Builder-Project/blob/main/screenshots/Screenshot%20(6).png" width="1400" height="500"/><br></br>
 <br><b>➤ About Us Component:</b> In this component user have to enter their personal details.
-<br></br><img src="https://github.com/SonalSoni8/Resume-Builder-Project/blob/main/screenshots/Screenshot%20(7).png" width="400" height="900"/><br></br>
+<br></br><img src="https://github.com/SonalSoni8/Resume-Builder-Project/blob/main/screenshots/Screenshot%20(7).png" width="1400" height="500"/><br></br>
 <br><b>➤ Dark MOde:</b> In this component user have to enter their personal details.
-<br></br><img src="https://github.com/SonalSoni8/Resume-Builder-Project/blob/main/screenshots/Screenshot%20(9).png" width="400" height="900"/><br></br>
-<br></br><img src="https://github.com/SonalSoni8/Resume-Builder-Project/blob/main/screenshots/Screenshot%20(11).png" width="400" height="900"/><br></br>
-<br></br><img src="https://github.com/SonalSoni8/Resume-Builder-Project/blob/main/screenshots/Screenshot%20(12).png" width="400" height="900"/><br></br>
-<br></br><img src="https://github.com/SonalSoni8/Resume-Builder-Project/blob/main/screenshots/Screenshot%20(13).png" width="400" height="900"/><br></br>
-<br></br><img src="https://github.com/SonalSoni8/Resume-Builder-Project/blob/main/screenshots/Screenshot%20(14).png" width="400" height="900"/><br></br>
-<br></br><img src="https://github.com/SonalSoni8/Resume-Builder-Project/blob/main/screenshots/Screenshot%20(8).png" width="400" height="900"/><br></br>
-<br></br><img src="https://github.com/SonalSoni8/Resume-Builder-Project/blob/main/screenshots/Screenshot%20(10).png" width="400" height="900"/><br></br>
+<br></br><img src="https://github.com/SonalSoni8/Resume-Builder-Project/blob/main/screenshots/Screenshot%20(9).png" width="1400" height="500"/><br></br>
+<br></br><img src="https://github.com/SonalSoni8/Resume-Builder-Project/blob/main/screenshots/Screenshot%20(11).png" width="1400" height="500"/><br></br>
+<br></br><img src="https://github.com/SonalSoni8/Resume-Builder-Project/blob/main/screenshots/Screenshot%20(12).png" width="1400" height="500"/><br></br>
+<br></br><img src="https://github.com/SonalSoni8/Resume-Builder-Project/blob/main/screenshots/Screenshot%20(13).png" width="1400" height="500"/><br></br>
+<br></br><img src="https://github.com/SonalSoni8/Resume-Builder-Project/blob/main/screenshots/Screenshot%20(14).png" width="1400" height="500"/><br></br>
+<br></br><img src="https://github.com/SonalSoni8/Resume-Builder-Project/blob/main/screenshots/Screenshot%20(8).png" width="1400" height="500"/><br></br>
+<br></br><img src="https://github.com/SonalSoni8/Resume-Builder-Project/blob/main/screenshots/Screenshot%20(10).png" width="1400" height="500"/><br></br>
 
 
 <b>Video Demonstration:</b><br>
