@@ -61,20 +61,30 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 <b>Project Components:</b><br>
 <b>➤ Home Component :</b> From this component user can choose their favourite template.
-<br></br><img src="https://github.com/saadansaryy/crypto-project-screenshots/blob/main/chart.png" width="1400" height="600"/><br></br>
-<br><b>➤ Market Cap Component:</b> This component displays the 'Top 50' Cryptocurrencies sorted in the order of their market cap value.
-<br></br><img src="https://github.com/saadansaryy/crypto-project-screenshots/blob/main/market-cap.png" width="400" height="900"/><br></br>
-<br><b>➤ Fiat Currency Dropdown and Search Bar :</b> The Fiat Currency dropdown has 3 options to choose from- USD, INR, and EUR, using which one can have Chart visualization, Market cap order, and Portfolio getting reflected in accordance with the option selected. One can also filter out Cryptocurrency in Market Cap Component.
-<br></br><img src="https://github.com/saadansaryy/crypto-project-screenshots/blob/main/currency-and-search.png" width="1400" height="70"/><br></br>
-<br><b>➤ Exchange Coins Component:</b> It has 2 dropdowns from which one can choose among cryptocurrencies to Buy and Sell and enter input values whose valid format is only positive numbers. The exchange button will give the accurate value of exchanged coins.
-<br></br><img src="https://github.com/saadansaryy/crypto-project-screenshots/blob/main/exchange.png" width="600" height="400"/><br></br>
-<br><b>➤ Portfolio Component:</b> This will give users a glimpse over their crypto-investments.  
- <br></br><img src="https://github.com/saadansaryy/crypto-project-screenshots/blob/main/portfolio.png" width="600" height="400"/><br></br>
-<br><b>➤ Dark Mode:</b> One can access the dark mode toggle button from the right side of the Navbar to switch between light and dark modes.
-<br></br><img src="https://github.com/saadansaryy/crypto-project-screenshots/blob/main/darkmode-UI.png" width="1000" height="700"/><br></br>
+<br></br><img src="https://github.com/SonalSoni8/Resume-Builder-Project/blob/main/screenshots/Screenshot%20(1).png" width="1400" height="600"/><br></br>
+<br><b>➤ Personal Information Component:</b> In this component user have to enter their personal details.
+<br></br><img src="https://github.com/SonalSoni8/Resume-Builder-Project/blob/main/screenshots/Screenshot%20(2).png" width="400" height="900"/><br></br>
+<br><b>➤ Work Experience Component:</b> In this component user have to enter their past work details.
+<br></br><img src="https://github.com/SonalSoni8/Resume-Builder-Project/blob/main/screenshots/Screenshot%20(3).png" width="400" height="900"/><br></br>
+<br><b>➤ Education Component:</b> In this component user have to enter their personal details.
+<br></br><img src="https://github.com/SonalSoni8/Resume-Builder-Project/blob/main/screenshots/Screenshot%20(4).png" width="400" height="900"/><br></br>
+<br><b>➤ Key Skills Component:</b> In this component user have to enter their personal details.
+<br></br><img src="https://github.com/SonalSoni8/Resume-Builder-Project/blob/main/screenshots/Screenshot%20(5).png" width="400" height="900"/><br></br>
+<br><b>➤ Preview Component:</b> In this component user have to enter their personal details.
+<br></br><img src="https://github.com/SonalSoni8/Resume-Builder-Project/blob/main/screenshots/Screenshot%20(6).png" width="400" height="900"/><br></br>
+<br><b>➤ About Us Component:</b> In this component user have to enter their personal details.
+<br></br><img src="https://github.com/SonalSoni8/Resume-Builder-Project/blob/main/screenshots/Screenshot%20(7).png" width="400" height="900"/><br></br>
+<br><b>➤ Dark MOde:</b> In this component user have to enter their personal details.
+<br></br><img src="https://github.com/SonalSoni8/Resume-Builder-Project/blob/main/screenshots/Screenshot%20(9).png" width="400" height="900"/><br></br>
+<br></br><img src="https://github.com/SonalSoni8/Resume-Builder-Project/blob/main/screenshots/Screenshot%20(11).png" width="400" height="900"/><br></br>
+<br></br><img src="https://github.com/SonalSoni8/Resume-Builder-Project/blob/main/screenshots/Screenshot%20(12).png" width="400" height="900"/><br></br>
+<br></br><img src="https://github.com/SonalSoni8/Resume-Builder-Project/blob/main/screenshots/Screenshot%20(13).png" width="400" height="900"/><br></br>
+<br></br><img src="https://github.com/SonalSoni8/Resume-Builder-Project/blob/main/screenshots/Screenshot%20(14).png" width="400" height="900"/><br></br>
+<br></br><img src="https://github.com/SonalSoni8/Resume-Builder-Project/blob/main/screenshots/Screenshot%20(8).png" width="400" height="900"/><br></br>
+<br></br><img src="https://github.com/SonalSoni8/Resume-Builder-Project/blob/main/screenshots/Screenshot%20(10).png" width="400" height="900"/><br></br>
 
 
-
+<b>Video Demonstration:</b><br>
 <video width="320" height="240" controls>
   <source src="https://drive.google.com/file/d/13Yawhqt-QNKzQA4_elidyxH7EcBY69lX/view?usp=drive_link" type="video/mp4">
 </video>
