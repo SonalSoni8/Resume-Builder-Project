@@ -60,7 +60,7 @@ At last, enter the file name from which you like to save/download the pdf file.
 2. On the preview page options are provided to switch between template designs.
 3. Tailwind CSS design for a creative and unified appearance of templates.
 4. View finalized resumes in PDF format and downloaded them according to your chosen file name.
-5. Full responsive website so easily to use in all devices.
+5. Full responsive website so easily to use on all devices.
 <br></br>
 
 <b>For video demonstration:</b> 
