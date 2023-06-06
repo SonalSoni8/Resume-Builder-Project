@@ -61,7 +61,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 <b>Project Components:</b><br>
 <b>➤ Home Component :</b> From this component user can choose their favourite template.
-<br></br><img src="https://github.com/SonalSoni8/Resume-Builder-Project/blob/main/screenshots/Screenshot%20(1).png" width="1400" height="600"/><br></br>
+<br></br><img src="https://github.com/SonalSoni8/Resume-Builder-Project/blob/main/screenshots/Screenshot%20(1).png" width="1080" height="1920"/><br></br>
 <br><b>➤ Personal Information Component:</b> In this component user have to enter their personal details.
 <br></br><img src="https://github.com/SonalSoni8/Resume-Builder-Project/blob/main/screenshots/Screenshot%20(2).png" width="400" height="900"/><br></br>
 <br><b>➤ Work Experience Component:</b> In this component user have to enter their past work details.
